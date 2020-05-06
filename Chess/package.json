@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "ws": "~0.4.32",
-    "ecstatic": "~0.5.4"
+    "ecstatic": "~4.1.4"
   }
 }
