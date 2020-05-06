@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chess</title>
+		<style> 
+         body {
+            background: #dddddd;
+         }
+		 
+		 /*element selectors: */
+		 canvas {
+		    margin: 20px;
+			/*important here for padding to be 0 for mouse calculations */
+            padding: 0px; 
+		 }
+		 /* class selectors: */
+		 .canvas {            
+            background: #ffffff;
+            border: thin inset #aaaaaa;
+         }
+
+         /*id selectors: */
+		 
+         #canvas1 {
+         }
+      </style>
+   </head>
+
+  <body>
+    <div class="canvas-div">
+		<canvas id='canvas1' class='canvas' height = "500" width = '1200'>
+			Canvas not supported
+		</canvas>
+	</div>
+	<div>
+		<input type="button" value="New Game" onClick="newGame()">
+		<input type="button" value="Save Game" onClick="saveGame()">
+		<input type="button" value="Load Game" onClick="loadGame()">
+		<input type="button" value="Control White" onClick="controlWhite()">
+		<input type="button" value="Control Black" onClick="controlBlack()">
+	</div>
+	<script src='chess.js'></script>
+  </body>
+</html>
